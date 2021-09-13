@@ -1,0 +1,22 @@
+{
+  "name": "node_intro",
+  "version": "0.0.1",
+  "description": "Our first package",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "learning"
+  ],
+  "author": "We",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "sequelize": "^6.6.5",
+    "webpack": "^5.52.1"
+  }
+}

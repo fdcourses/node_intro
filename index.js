@@ -2,6 +2,7 @@
 
 const { MyMath } = require('./src/MyMath.js');
 const { ExportedComponent } = require('./src/Component.js');
+const lodash = require('lodash');
 
 /*
  resolve -> loading -> wrapping -> evaluation -> caching
@@ -26,4 +27,4 @@ const { ExportedComponent } = require('./src/Component.js');
 
 */
 
-console.log(__filename);
+console.log(lodash.random());
