@@ -1,5 +1,3 @@
-const { MyMath } = require('./MyMath.js');
-
 class Component {
   constructor(props) {
     this.props = props;
@@ -12,8 +10,7 @@ class Component {
 
 const data = 1;
 
-console.log('component');
+// console.log(module.exports);
 
-exports.ExportedComponent = Component;
-
-// console.log(exports);
+module.exports.Component = Component;
+module.exports.data = data;

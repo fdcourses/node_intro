@@ -1,9 +1,10 @@
 'use strict';
 
-const { MyMath } = require('./src/MyMath.js');
-const { ExportedComponent } = require('./src/Component.js');
+const MyMath = require('./src/MyMath');
+const exported = require('./src/Component.js');
 const lodash = require('lodash');
 
+console.log(exported);
 /*
  resolve -> loading -> wrapping -> evaluation -> caching
 
@@ -27,4 +28,3 @@ const lodash = require('lodash');
 
 */
 
-console.log(lodash.random());

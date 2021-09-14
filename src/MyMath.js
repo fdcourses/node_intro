@@ -1,3 +1,4 @@
+
 class MyMath {
   static sum = (...args) =>  args.reduce((acc, currentValue) => acc + currentValue, 0);
 
@@ -8,8 +9,6 @@ class MyMath {
   static multiply = (...args) => args.reduce((acc, currentValue) => acc * currentValue, 0);
 }
 
-const data = 2;
+module.exports = MyMath;
 
-console.log('Math');
-
-exports.MyMath = MyMath;
+// console.log(module.exports);
